@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://kevintrethewey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://kevintrethewey.com/" rel="alternate" type="text/html" /><updated>2017-09-26T05:38:25+02:00</updated><id>http://kevintrethewey.com/</id><title type="html">Kevin Trethewey</title><subtitle>I'm always interested in consulting and speaking opportunities internationally.  Please connect with me for this, or anything else you'd like to discuss.  
+</subtitle><author><name>Kevin Trethewey</name><email>kevint@gmail.com</email></author><entry><title type="html">Collaborative Programming</title><link href="http://kevintrethewey.com/2016/12/01/collaborativeprogramming/" rel="alternate" type="text/html" title="Collaborative Programming" /><published>2016-12-01T00:00:00+02:00</published><updated>2016-12-01T00:00:00+02:00</updated><id>http://kevintrethewey.com/2016/12/01/collaborativeprogramming</id><content type="html" xml:base="http://kevintrethewey.com/2016/12/01/collaborativeprogramming/">&lt;p&gt;&lt;a href=&quot;http://www.extremeprogramming.org/rules/pair.html&quot;&gt;Pair&lt;/a&gt; and &lt;a href=&quot;https://leanpub.com/GettingStartedWithMobProgramming&quot;&gt;Mob programming&lt;/a&gt; practices are far more effective approaches to writing production software than individuals working alone.&lt;/p&gt;
+
+&lt;p&gt;The thing that slows delivery down the most is not the speed of creating new production code, but the &lt;em&gt;fragmented distribution of understanding&lt;/em&gt; of the technical and business domains, in combination with how the code meets the needs/problem.&lt;/p&gt;
+
+&lt;p&gt;With collaborative methods of producing code, knowledge is combined, created and shared in context, resulting in&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Less work in progress and queues of half completed work&lt;/li&gt;
+  &lt;li&gt;Simpler, more effective solutions to problems.&lt;/li&gt;
+  &lt;li&gt;A huge percentage of bugs and defects never occur or are caught before immediately.&lt;/li&gt;
+  &lt;li&gt;The skill levels of the whole team are amplified and increased over time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These factors combine and compound, with the outcome that over time a team that is collaborating effectively will significantly outperform a group of people that is working in an isolated, divide-and-conquer approach.&lt;/p&gt;</content><author><name>Kevin Trethewey</name><email>kevint@gmail.com</email></author><category term="programming" /><category term="knowledge management" /><summary type="html">Pair and Mob programming practices are far more effective approaches to writing production software than individuals working alone. The thing that slows delivery down the most is not the speed of creating new production code, but the fragmented distribution of understanding of the technical and business domains, in combination with how the code meets the needs/problem. With collaborative methods of producing code, knowledge is combined, created and shared in context, resulting in Less work in progress and queues of half completed work Simpler, more effective solutions to problems. A huge percentage of bugs and defects never occur or are caught before immediately. The skill levels of the whole team are amplified and increased over time These factors combine and compound, with the outcome that over time a team that is collaborating effectively will significantly outperform a group of people that is working in an isolated, divide-and-conquer approach.</summary></entry><entry><title type="html">Getting tired of dealing with problems?</title><link href="http://kevintrethewey.com/2014/10/17/problems/" rel="alternate" type="text/html" title="Getting tired of dealing with problems?" /><published>2014-10-17T00:00:00+02:00</published><updated>2014-10-17T00:00:00+02:00</updated><id>http://kevintrethewey.com/2014/10/17/problems</id><content type="html" xml:base="http://kevintrethewey.com/2014/10/17/problems/">&lt;p&gt;What is the one thing in life you can be guaranteed of?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Change&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you aren’t changing it means you are dead, so be happy about that. But when things change, that does that cause?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problems&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a smart person when you are faced with a problem you find…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solutions&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;Aaand what do solutions cause…?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Oops.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, you will &lt;em&gt;always&lt;/em&gt; have problems:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/problem-loop.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The real question to ask is: Do you have the &lt;em&gt;right&lt;/em&gt; problems?&lt;/p&gt;
+
+&lt;p&gt;For a new startup, battling with cashflow is the &lt;em&gt;right&lt;/em&gt; kind of problem to have. A company that has been around for 10 years and having cashflow issues is experiencing the &lt;em&gt;wrong&lt;/em&gt; problem.&lt;/p&gt;
+
+&lt;p&gt;Celebrate and embrace your right problems. Resist the urge sweep them under the rug or they will become wrong problems. When you find a genuine wrong problem, step back. Think about how the systems allowed that problem to happen and how the system could be changed to prevent it in future.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: I first came across the change-problems-solutions loop via the work of &lt;a href=&quot;http://www.ichakadizes.com/&quot;&gt;Izak Adizes&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Kevin Trethewey</name><email>kevint@gmail.com</email></author><category term="systemic thinking" /><summary type="html">What is the one thing in life you can be guaranteed of? Change. If you aren’t changing it means you are dead, so be happy about that. But when things change, that does that cause? Problems. As a smart person when you are faced with a problem you find… Solutions! Aaand what do solutions cause…? Oops. As you can see, you will always have problems: The real question to ask is: Do you have the right problems? For a new startup, battling with cashflow is the right kind of problem to have. A company that has been around for 10 years and having cashflow issues is experiencing the wrong problem. Celebrate and embrace your right problems. Resist the urge sweep them under the rug or they will become wrong problems. When you find a genuine wrong problem, step back. Think about how the systems allowed that problem to happen and how the system could be changed to prevent it in future. Note: I first came across the change-problems-solutions loop via the work of Izak Adizes</summary></entry></feed>

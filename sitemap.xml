@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://kevintrethewey.com/tag/systemic-thinking/</loc>
-<lastmod>2017-10-10T08:41:35+02:00</lastmod>
+<loc>http://kevintrethewey.com/tag/hyde/</loc>
+<lastmod>2017-12-05T14:00:24+02:00</lastmod>
+</url>
+<url>
+<loc>http://kevintrethewey.com/tag/hydejack/</loc>
+<lastmod>2017-12-05T14:00:24+02:00</lastmod>
 </url>
 <url>
 <loc>http://kevintrethewey.com/2014/10/17/problems/</loc>
@@ -11,6 +15,10 @@
 <url>
 <loc>http://kevintrethewey.com/2016/12/01/collaborativeprogramming/</loc>
 <lastmod>2016-12-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://kevintrethewey.com/2017/12/04/jemstep/</loc>
+<lastmod>2017-12-04T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://kevintrethewey.com/projects/teamtourism/</loc>
@@ -33,7 +41,25 @@
 <lastmod>2017-09-21T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://kevintrethewey.com/licenses/Apache-2.0/</loc>
+</url>
+<url>
+<loc>http://kevintrethewey.com/CHANGELOG/</loc>
+</url>
+<url>
+<loc>http://kevintrethewey.com/licenses/GPL-3.0/</loc>
+</url>
+<url>
+<loc>http://kevintrethewey.com/LICENSE/</loc>
+</url>
+<url>
+<loc>http://kevintrethewey.com/licenses/MIT/</loc>
+</url>
+<url>
 <loc>http://kevintrethewey.com/NOTICE/</loc>
+</url>
+<url>
+<loc>http://kevintrethewey.com/licenses/PRO/</loc>
 </url>
 <url>
 <loc>http://kevintrethewey.com/about/</loc>
@@ -58,12 +84,5 @@
 </url>
 <url>
 <loc>http://kevintrethewey.com/resume/</loc>
-</url>
-<url>
-<loc>http://kevintrethewey.com/assets/bower_components/html5shiv/MIT%20and%20GPL2%20licenses/</loc>
-</url>
-<url>
-<loc>http://kevintrethewey.com/assets/icomoon/demo.html</loc>
-<lastmod>2017-08-10T12:10:50+02:00</lastmod>
 </url>
 </urlset>

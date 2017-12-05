@@ -10,6 +10,840 @@
                 /\___/                \ \____/
                 \/__/                  \/___/
 
-Powered by Hydejack v6.6.1 <https://qwtel.com/hydejack/>
---><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><title>Blog &middot; Kevin Trethewey</title><meta name="description" content="I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss. "><link rel="canonical" href="http://kevintrethewey.com/blog/"><link rel="alternate" type="application/atom+xml" title="Kevin Trethewey Feed" href="http://kevintrethewey.com/feed.xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link id="_katexJS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js"><link id="_katexCSS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css"> <!--[if gt IE 8]><!----> <script> WebFontConfig = { google: { families: 'Roboto+Slab:700|Noto+Sans:400,400i,700,700i'.split('|') }, custom: { families: ['icomoon'], urls: ['/assets/icomoon/style.css'] } }; </script> <!--<![endif]--> <script> !function(n,e){function t(n,e){n.onload=function(){this.onerror=this.onload=null,e(null,n)},n.onerror=function(){this.onerror=this.onload=null,e(new Error("Failed to load "+this.src),n)}}function o(n,e){n.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||(this.onreadystatechange=null,e(null,n))}}n._loaded=!1,n.loadJSDeferred=function(a,d){function r(){n._loaded=!0;var r=e.createElement("script");r.src=a,d&&(("onload"in r?t:o)(r,d),r.onload||t(r,d));var l=e.getElementsByTagName("script")[0];l.parentNode.insertBefore(r,l)}n._loaded?r():n.addEventListener?n.addEventListener("load",r,!1):n.attachEvent?n.attachEvent("onload",r):n.onload=r}}(window,document); !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this); !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this); window.disablePushState = false; window.disableDrawer = false; </script> <!--[if lt IE 9]> <script src="/assets/bower_components/html5shiv/dist/html5shiv.min.js"></script> <![endif]--> <!--[if gt IE 8]><!----><style> article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}*{box-sizing:border-box}html,body{margin:0;padding:0}html{font-size:16px;line-height:1.75}body{color:#333;background-color:#fff;overflow-y:scroll}a{text-decoration:none}.lead{margin-left:-1rem;margin-right:-1rem}img,.img{display:block;max-width:100%;margin-bottom:1rem;border:none}img.lead,.img.lead{max-width:calc(100% + 2rem);width:calc(100% + 2rem)}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.heading{font-weight:bold;text-rendering:optimizeLegibility}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{margin:3rem 0 1rem;line-height:1.6}h1,.h1{font-size:2rem;line-height:1.25}h2,.h2{font-size:1.5rem}h3,.h3{font-size:1.17em}p{margin-top:0;margin-bottom:1rem}p.lead{font-size:1.25rem;font-weight:300;padding:0 1rem}ul,ol,dl{margin-top:0;margin-bottom:1rem}ul,ol{padding-left:1.25rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #eee}.hr{padding-bottom:.5rem;border-bottom:1px solid #eee;margin-bottom:1.5rem}h4,h5,h6,.h4,.h5,.h6{margin-bottom:0.5rem;font-size:1rem}table{margin-bottom:1rem;width:100%;width:calc(100% + 2rem);margin-left:-1rem;border:1px solid #e5e5e5;border-collapse:collapse;border-spacing:0}td,th{padding:.25rem .5rem;border:1px solid #e5e5e5}td:first-child,th:first-child{padding-left:1rem}td:last-child,th:last-child{padding-right:1rem}thead+tbody,tbody+tbody,tfoot{border-top:3px double #e5e5e5}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#f9f9f9}footer{margin-bottom:2rem}.page,.post{margin-bottom:3em}.page li+li,.post li+li{margin-top:.25rem}.page>header,.post>header{margin-bottom:2rem}.page-title,.post-title{margin-top:0}.post-date{display:block;margin-top:-0.5rem;margin-bottom:1rem;color:#9a9a9a}.related-posts{padding-left:0;list-style:none}.related-posts>li,.related-posts>li+li{margin-top:1rem}.related-posts>li>small,.related-posts>li+li>small{font-size:75%;color:#9a9a9a}.message{margin-bottom:1rem;padding:1rem;color:#787878;background-color:#f9f9f9;margin-left:-1rem;margin-right:-1rem}body,main{position:relative;overflow-x:hidden}@media screen{body::before{content:'';width:.5rem;background:#e5e5e5;position:absolute;left:0;top:0;bottom:0}}@media screen and (min-width: 40em){html{font-size:17px}}@media screen and (min-width: 54em){html{font-size:16px}}@media screen and (min-width: 72em){html{font-size:17px}}@media screen and (min-width: 125em){html{font-size:18px}}.sr-only{display:none}.clearfix,.sidebar-social::after,.clearafter::after{content:"";display:table;clear:both}a,.a{position:relative;padding-bottom:.15rem;border-bottom:1px solid}.img{overflow:hidden;background-color:#f9f9f9}.img>img{margin:0;width:100%;height:100%}.sixteen-nine{position:relative}.sixteen-nine::before{display:block;content:"";width:100%;padding-top:56.25%}.sixteen-nine>*{position:absolute;top:0;left:0;right:0;bottom:0}h1+hr,h2+hr,h3+hr,h4+hr,h5+hr,h6+hr{margin-top:0}.fade-in{animation-duration:500ms;animation-name:fade-in;animation-fill-mode:forwards}@keyframes fade-in{from{transform:translateY(-2rem);opacity:0}50%{transform:translateY(-2rem);opacity:0}to{transform:translateY(0);opacity:1}}.mb6{margin-bottom:6rem}.sidebar{color:rgba(255,255,255,0.75);text-align:left}.sidebar::before{content:"";position:absolute;z-index:2;top:0;left:0;bottom:0;right:0;background:linear-gradient(to bottom, rgba(32,32,32,0) 0%, rgba(32,32,32,0.5) 100%)}.sidebar a{color:#fff;border-bottom-color:rgba(255,255,255,0.2)}#_yDrawer{position:relative;padding:1rem 0}@media screen{#_yDrawer{padding:2rem 1rem;min-height:640px;min-height:100vh}}@media screen and (min-width: 54em){#_yDrawer{position:fixed;top:0;left:0;bottom:0;width:18rem;margin-left:0}}@media screen and (min-width: 97.5em){#_yDrawer{width:calc(50% - 28rem)}}@media screen{#_yDrawer.loaded{min-height:0;padding:0}}.sidebar-bg{position:absolute;top:0;right:0;bottom:0;left:0;background:#202020 center / cover}.sidebar-sticky{position:relative;z-index:3}@media screen{.sidebar-sticky{position:absolute;right:2rem;bottom:1rem;left:auto;max-width:14rem}}@media print{.sidebar-sticky{padding:0 2rem}}.sidebar-about>h1{color:#fff;font-size:2rem}.sidebar-nav>ul{list-style:none;padding-left:0;margin-bottom:.5rem}a.sidebar-nav-item{font-weight:bold;display:block;line-height:1.75;padding:.25rem 0;border-bottom:1px solid rgba(255,255,255,0.2)}@media screen{.y-drawer-scrim{z-index:2}.y-drawer-content{width:18rem;left:-17.5rem;z-index:3}}@media screen and (min-width: 97.5em){.y-drawer-content{width:calc(50% - 28rem)}}.sidebar-social{margin-bottom:.5rem}.sidebar-social>ul{list-style:none;padding-left:0;margin:0 -.25rem}.sidebar-social>ul>li{float:left;margin:0 .25rem}.sidebar-social>ul>li>a{display:inline-block;text-align:center;font-size:1.6rem;line-height:3rem;width:3.1249rem;height:4rem;padding:.5rem 0}.sidebar-social>ul li+li{margin-top:0}.fixed-top{position:fixed;top:0;left:0;width:100%;z-index:1}.navbar>.content{padding-top:0;padding-bottom:0;min-height:0;height:0}.menu{display:inline-block;padding:1.75rem 1.5rem;border-bottom:none;margin-left:-1.5rem;color:#9a9a9a !important}.menu::after{content:"\2630"}@media screen and (min-width: 54em){.menu{padding:1.25rem 1.5rem;position:absolute;left:-9999px}.menu:focus{position:static}}.animation-main{pointer-events:none}.loading{display:none}@media print{.menu{display:none}}.animation-main{opacity:0;will-change:opacity}.loading{position:absolute;top:0;right:0;padding:5.25rem 4.5rem;transform-origin:top right;transform:scale(0.33)}.content{position:relative;margin-left:auto;margin-right:auto;padding:5rem 1rem 12rem}@media screen{.content{max-width:38rem;padding-left:1.5rem;min-height:100vh}}@media screen and (min-width: 54em){.content{max-width:42rem;padding:4rem 1rem 12rem;margin-left:22rem;margin-right:4rem}}@media screen and (min-width: 72em){.content{margin-left:22rem;margin-right:4rem}}@media screen and (min-width: 92em){.content{max-width:48rem}}@media screen and (min-width: 97.5em){.content{margin:auto}}.me{float:right;width:6.5rem;height:6.5rem;margin-left:1rem;margin-bottom:.5rem;border-radius:100%;position:relative}@media screen and (min-width: 40em){.me{width:7rem;height:7rem}}@media screen and (min-width: 54em){.me{width:6.5rem;height:6.5rem}}@media screen and (min-width: 60em){.me{width:7rem;height:7rem}}main>footer{position:absolute;bottom:0;left:0;right:0;padding:0 1rem;color:#9a9a9a;font-size:smaller;text-align:center}main>footer>p{margin-bottom:0}html{font-family:Helvetica, Arial, sans-serif}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.heading{font-family:Helvetica, Arial, sans-serif}</style><link id="_stylePreload" rel="preload" as="style" href="/assets/css/hydejack.css?v=6.6.1"> <script>document.getElementById('_stylePreload').onload=function(){this.rel='stylesheet'}</script><style id="_pageStyle"> .content a{color:#4f86aa;border-color:rgba(79,134,170,0.2)}.content a:hover{border-color:#4f86aa}:focus{outline-color:#4f86aa}::selection{color:#fff;background:#4f86aa}::-moz-selection{color:#fff;background:#4f86aa}</style><noscript><link rel="stylesheet" href="/assets/css/hydejack.css?v=6.6.1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Noto+Sans:400,400i,700,700i"><style> html { font-family: 'Noto Sans', Helvetica, Arial, sans-serif } h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: 'Roboto Slab', Helvetica, Arial, sans-serif }</style><link rel="stylesheet" href="/assets/icomoon/style.css"> </noscript> <!--<![endif]--> <!--[if gt IE 8]><!----> <script async src="/assets/bower_components/webfontloader/webfontloader.js"></script> <!--<![endif]--><body><div class="navbar fixed-top"><div class="content"> <span class="sr-only">Jump to:</span> <a id="_menu" class="menu no-hover" href="#_title"> <span class="sr-only">Menu</span> </a></div></div><div id="_yPushState"><div class="fade-in"><main id="_main" class="content" role="main" data-color="#4f86aa" data-image="/assets/img/nap.jpg"><article id="post-2016/12/01/collaborativeprogramming" class="post mb6" role="article"><header><h1 class="post-title"> <a href="/2016/12/01/collaborativeprogramming/" data-flip="title"> Collaborative Programming </a></h1><p class="post-date heading"> <time datetime="2016-12-01T00:00:00+02:00">01 Dec 2016</time> on <span>Programming</span>, <span>Knowledge management</span><p class="message">What is the fundamental reason for producing production code together with others, rather than alone?</header><p><a href="http://www.extremeprogramming.org/rules/pair.html">Pair</a> and <a href="https://leanpub.com/GettingStartedWithMobProgramming">Mob programming</a> practices are far more effective approaches to writing production software than individuals working alone.<p>The thing that slows delivery down the most is not the speed of creating new production code, but the <em>fragmented distribution of understanding</em> of the technical and business domains, in combination with how the code meets the needs/problem.<p>With collaborative methods of producing code, knowledge is combined, created and shared in context, resulting in<ul><li>Less work in progress and queues of half completed work<li>Simpler, more effective solutions to problems.<li>A huge percentage of bugs and defects never occur or are caught before immediately.<li>The skill levels of the whole team are amplified and increased over time</ul><p>These factors combine and compound, with the outcome that over time a team that is collaborating effectively will significantly outperform a group of people that is working in an isolated, divide-and-conquer approach.<p class="read-more">Continue reading <a class="heading" href="/2016/12/01/collaborativeprogramming/" data-flip="title">Collaborative Programming</a></article><article id="post-2014/10/17/problems" class="post mb6" role="article"><header><h1 class="post-title"> <a href="/2014/10/17/problems/" data-flip="title"> Getting tired of dealing with problems? </a></h1><p class="post-date heading"> <time datetime="2014-10-17T00:00:00+02:00">17 Oct 2014</time> on <a href="/tag/systemic-thinking/" data-flip="title">Systemic Thinking</a><p class="message">If you think you can get rid of all your problems, take a look at what Ichak Adizes had to say about that…</header><p>What is the one thing in life you can be guaranteed of?<p><strong>Change</strong>.<p>If you aren’t changing it means you are dead, so be happy about that. But when things change, that does that cause?<p><strong>Problems</strong>.<p>As a smart person when you are faced with a problem you find…<p><strong>Solutions</strong>!<p>Aaand what do solutions cause…?<p><strong>Oops.</strong><p>As you can see, you will <em>always</em> have problems:<p><img src="/assets/img/blog/problem-loop.jpg" alt="image" /><p>The real question to ask is: Do you have the <em>right</em> problems?<p>For a new startup, battling with cashflow is the <em>right</em> kind of problem to have. A company that has been around for 10 years and having cashflow issues is experiencing the <em>wrong</em> problem.<p>Celebrate and embrace your right problems. Resist the urge sweep them under the rug or they will become wrong problems. When you find a genuine wrong problem, step back. Think about how the systems allowed that problem to happen and how the system could be changed to prevent it in future.<p><em>Note: I first came across the change-problems-solutions loop via the work of <a href="http://www.ichakadizes.com/">Izak Adizes</a></em><p class="read-more">Continue reading <a class="heading" href="/2014/10/17/problems/" data-flip="title">Getting tired of dealing with problems?</a></article><h2 class="sr-only">Pagination</h2><nav class="pagination heading" role="navigation"><ul><li class="pagination-item older" > <span>Older</span><li class="pagination-item newer" > <span>Newer</span></ul></nav><footer><hr/><p>© 2017. All rights reserved.</footer></main></div><div id="_yDrawer"><div id="_sidebar" class="sidebar"><div class="sidebar-bg" style="background-color:#4f86aa;background-image:url(/assets/img/nap.jpg)"></div><header class="sidebar-sticky" role="banner"><div class="sidebar-about"><h1><a id="_title" href="/">Kevin Trethewey</a></h1><p>I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss.</div><nav class="sidebar-nav heading" role="navigation"> <span class="sr-only">Navigation:</span><ul><li> <a class="sidebar-nav-item active" href="/blog/">Blog</a><li> <a class="sidebar-nav-item" href="/nuggets/">Nuggets</a><li> <a class="sidebar-nav-item" href="/projects/">Projects</a><li> <a class="sidebar-nav-item" href="/resume/">Resume</a><li> <a class="sidebar-nav-item" href="/about/">About</a></ul></nav><div class="sidebar-social"> <span class="sr-only">Social:</span><ul><li> <a href="https://twitter.com/kevintrethewey" title="Twitter"> <span class="icon-twitter"></span> <span class="sr-only">Twitter</span> </a><li> <a href="mailto:<kevint@gmail.com>" title="Email"> <span class="icon-mail"></span> <span class="sr-only">Email</span> </a><li> <a href="https://www.linkedin.com/in/kevint" title="LinkedIn"> <span class="icon-linkedin2"></span> <span class="sr-only">LinkedIn</span> </a><li> <a href="https://instagram.com/kevin_trethewey" title="Instagram"> <span class="icon-instagram"></span> <span class="sr-only">Instagram</span> </a><li> <a href="https://github.com/kevint" title="GitHub"> <span class="icon-github"></span> <span class="sr-only">GitHub</span> </a><li> <a href="https://kevintrethewey.com/feed.xml" title="RSS"> <span class="icon-rss2"></span> <span class="sr-only">RSS</span> </a></ul></div></header></div></div></div><script> window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date; ga('create', 'UA-146968-7', 'auto'); ga('send', 'pageview'); loadJSDeferred('https://www.google-analytics.com/analytics.js'); </script> <!--[if gt IE 9]><!----> <script>loadJSDeferred('/assets/js/hydejack.js?v=6.6.1');</script> <!--<![endif]-->
+Powered by Hydejack v7.1.1 <https://qwtel.com/hydejack/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+  
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Blog | Kevin Trethewey</title>
+<meta property="og:title" content="Blog" />
+<meta name="author" content="Kevin Trethewey" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss." />
+<meta property="og:description" content="I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss." />
+<link rel="canonical" href="http://kevintrethewey.com/blog/" />
+<meta property="og:url" content="http://kevintrethewey.com/blog/" />
+<meta property="og:site_name" content="Kevin Trethewey" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kevintrethewey" />
+<meta name="twitter:creator" content="@Kevin Trethewey" />
+<script type="application/ld+json">
+{"name":null,"description":"I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss.","url":"http://kevintrethewey.com/blog/","headline":"Blog","dateModified":null,"datePublished":null,"sameAs":null,"@type":"WebPage","author":{"@type":"Person","name":"Kevin Trethewey"},"image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://kevintrethewey.com/assets/icons/icon.png"},"name":"Kevin Trethewey"},"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+    <meta name="keywords" content="">
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Kevin Trethewey">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="Kevin Trethewey">
+<meta name="msapplication-config" content="/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="#4fb1ba">
+
+
+<meta name="generator" content="Hydejack v7.1.1" />
+
+
+<link rel="alternate" type="application/atom+xml" title="Kevin Trethewey Feed" href="http://kevintrethewey.com/feed.xml">
+
+
+<link rel="alternate" href="http://kevintrethewey.com/blog/" hreflang="en">
+
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon.png">
+
+<link rel="manifest" href="/assets/manifest.json">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+
+
+<link id="_katexJS"  rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js">
+<link id="_katexCSS" rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css">
+
+<script>
+  function stdOnEnd(n,e){n.onload=function(){this.onerror=this.onload=null,e(null,n)},n.onerror=function(){this.onerror=this.onload=null,e(new Error("Failed to load "+this.src),n)}}function ieOnEnd(n,e){n.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||(this.onreadystatechange=null,e(null,n))}}window.setRelStylesheet=function(n){function e(){this.rel="stylesheet"}var o=document.getElementById(n);o.addEventListener?o.addEventListener("load",e,!1):o.onload=e},window._loaded=!1,window.loadJSDeferred=function(n,e){function o(){window._loaded=!0;var o=document.createElement("script");o.src=n,e&&(("onload"in o?stdOnEnd:ieOnEnd)(o,e),o.onload||stdOnEnd(o,e));var t=document.scripts[0];t.parentNode.insertBefore(o,t)}window._loaded?o():window.addEventListener?window.addEventListener("load",o,!1):window.onload=o};
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+
+  window._noPushState = false;
+  window._noDrawer = false;
+</script>
+
+<!--[if gt IE 8]><!---->
+
+
+<script>
+  WebFontConfig = {
+    
+    google: {
+      families: ['Roboto+Slab:700','Noto+Sans:400,400i,700,700i']
+    },
+    
+
+    custom: {
+      families: ['icomoon'],
+      urls: ['/assets/icomoon/style.css']
+    }
+  };
+  (function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = "/assets/bower_components/webfontloader/webfontloader.js";
+    s.parentNode.insertBefore(wf, s);
+  }(document));
+</script>
+<!--<![endif]-->
+
+<noscript>
+  
+  
+
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i">
+    <style>
+      html { font-family: 'Noto Sans', Helvetica, Arial, sans-serif }
+      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: 'Roboto Slab', Helvetica, Arial, sans-serif }
+    </style>
+  
+
+  <link rel="stylesheet" href="/assets/icomoon/style.css">
+</noscript>
+
+<!--[if gt IE 8]><!---->
+
+
+
+  <link rel="stylesheet" href="/assets/css/hydejack.css?v=7.1.1">
+
+
+
+<style id="_pageStyle">
+
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
+
+</style>
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body>
+  <div class="navbar fixed-top">
+  <div class="content">
+    <div class="nav-btn-bar">
+      <span class="sr-only">Jump to:</span>
+      <a id="_menu" class="nav-btn no-hover" href="#_navigation">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<hy-push-state>
+  <main
+    id="_main"
+    class="content fade-in layout-blog"
+    role="main"
+    data-color="#4fb1ba"
+    
+      data-image="/assets/img/sidebar-bg.jpg
+"
+      data-overlay
+    
+    >
+    
+
+  
+  
+
+
+<article id="post-2017-12-04-jemstep" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title">
+      <a href="/2017/12/04/jemstep/" class="flip-title">
+        I'm joining Jemstep by Invesco as their Technical Director
+      </a>
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2017-12-04T00:00:00+02:00">04 Dec 2017</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+on <span>Jemstep</span>, <span>Driven</span>
+
+    </p>
+
+    
+
+
+
+  
+    <p class="message" >
+      In January 2018 I’ll be taking up an exciting new position outside of Driven Alliance
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <h2 id="how-did-that-happen">How did that happen?</h2>
+
+<p>I started Driven in 2008. Almost 10 years and 15 full time employees on and it’s been a wonderful journey and experience. I’ve learned so much from all those that I had the privileged of collaborating with, inside Driven, at our clients, and within the wider software development community.</p>
+
+<p>Aside from holding the space within Driven, in the last five years I’ve been focussing on effective team and organisational coaching. However, I didn’t start coaching to be a coach. I wanted to learn about how work <em>actually</em> works. This year I became more and more aware that I had extracted a lot of the learning that I wanted. I had a feeling that it was becoming time for me to grow <strong>awesome</strong> software again.</p>
+
+<p>Within Driven we’ve been through very challenging times. Half of the company emigrated (literally). These things happened at a rate that left us quite anaemically spread out across clients and battling to keep the connections between each other that made Driven a special place to work in the first place.</p>
+
+<p>To counter this, we’ve been looking for product development opportunities that get us all working closely together again. Whilst on the journey to doing this (<a href="http://chaoscanary.com">Chaos Canary</a> as an example), an opportunity at Jemstep came looking for me. After a lot of deliberation and consultation, I decided it was the right thing at the right time to take on. I’ll discuss my plans in that regard further down.</p>
+
+<h2 id="what-will-happen-to-driven">What will happen to Driven</h2>
+
+<p>Driven has a great reputation in our industry and clients who appreciate and support the work we’ve done. That will continue. Janco Wolmarans and Shanaaz Trethewey will be key in deciding where to take the company, based on their collective aspirations. They’ve both been an integral part of Driven’s strategic decision making for years, and I’ll still be advising and consulting them where needed, and asked.</p>
+
+<p>The community event organisation capabilities will definitely keep strong. The annual unconference will <em>definitely</em> still happen. There will be more code retreats.</p>
+
+<h2 id="thank-you-driveneers">Thank You Driveneers</h2>
+
+<p>I want to make a specific point of thanking each and every person who chose over the last decade to throw their lot in with Driven. I believe that every single person who joined Driven took more than they arrived with, in terms of learning and growth. They also each left behind more than they took. For me, this is the sign of a prosperous venture and, overall, a great success story.</p>
+
+<p>In the last 10 years, as a collective we have…</p>
+
+<ul>
+  <li>Grown, coached and participated in many great, and aspiring to be great software teams</li>
+  <li>Helped many people grow a deeper understanding of how to make software together effectively</li>
+  <li>Presented and taught at many local and international conferences</li>
+  <li>Helped several software communities and conferences bootstrap themselves</li>
+  <li>Brought out experienced international people to teach us and our community</li>
+  <li>Taught resource-poor kids to code through <a href="http://sisonkerising.com">Sisonke Rising</a></li>
+  <li>Started the <a href="http://teamtourism.directory">Team Tourism</a> movement</li>
+  <li>Organised, sponsored and facilitated &gt; 20 <a href="http://meetup.com/coderetreat">Code Retreats</a></li>
+  <li>Started the annual <a href="https://twitter.com/search?q=%23drivenci">Drivenci</a> unconference</li>
+  <li>Launched (and recovered!) a telemetry-packed high altitude balloon</li>
+  <li>Built several custom drones, including a 3d printed ocotocopter</li>
+  <li>Built a 13 node Raspberry Pi cluster <a href="http://netdev.co.za/blog/pi-cluster-at-ibm-research-africa-south-africa-lab/">for IBM Research</a></li>
+  <li>Launched <a href="http://chaoscanary.com">Chaos Canary</a>, a great product that helps dev teams avoid chaos in their production and development environments</li>
+</ul>
+
+<p>…and so many more achievements over the years.</p>
+
+<p>Wherever you find yourselves in the world today, from me personally: <strong>Thank you.</strong></p>
+
+<h2 id="my-plans-at-jemstep">My plans at Jemstep</h2>
+
+<p><a href="https://www.jemstep.com/en">Jemstep</a> has an amazing platform to grow from. They’ve built a product that customers are beating down their door to get. They’re using technology that developers want to work with. They’ve well funded by a parent company that understands how important it is not to “absorb them into the mother ship”, and that lets them focus on building a great product.</p>
+
+<p>From next year, I’m going to be helping them grow effectively. Together, we’re going to grow <em>the best development house in the country</em> (many people agree they are there already, and just not great at getting the word out).</p>
+
+<p>As we grow, we’re <a href="https://www.jemstep.com/en/about-us/careers">looking for people</a> with strong technical aptitude, who also want to bring their whole human selves to work with them. Passionate people who want to understand way beyond the code.</p>
+
+<p>Come grow something <strong>awesome</strong> with me.</p>
+
+<p><br />
+Kevin</p>
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/2017/12/04/jemstep/">I'm joining Jemstep by Invesco as their Technical Director</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+<article id="post-2016-12-01-collaborativeprogramming" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title">
+      <a href="/2016/12/01/collaborativeprogramming/" class="flip-title">
+        Collaborative Programming
+      </a>
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2016-12-01T00:00:00+02:00">01 Dec 2016</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+on <span>Programming</span>, <span>Knowledge management</span>
+
+    </p>
+
+    
+
+
+
+  
+    <p class="message" >
+      What is the fundamental reason for producing production code together with others, rather than alone?
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p><a href="http://www.extremeprogramming.org/rules/pair.html">Pair</a> and <a href="https://leanpub.com/GettingStartedWithMobProgramming">Mob programming</a> practices are far more effective approaches to writing production software than individuals working alone.</p>
+
+<p>The thing that slows delivery down the most is not the speed of creating new production code, but the <em>fragmented distribution of understanding</em> of the technical and business domains, in combination with how the code meets the needs/problem.</p>
+
+<p>With collaborative methods of producing code, knowledge is combined, created and shared in context, resulting in</p>
+
+<ul>
+  <li>Less work in progress and queues of half completed work</li>
+  <li>Simpler, more effective solutions to problems.</li>
+  <li>A huge percentage of bugs and defects never occur or are caught before immediately.</li>
+  <li>The skill levels of the whole team are amplified and increased over time</li>
+</ul>
+
+<p>These factors combine and compound, with the outcome that over time a team that is collaborating effectively will significantly outperform a group of people that is working in an isolated, divide-and-conquer approach.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/2016/12/01/collaborativeprogramming/">Collaborative Programming</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+<article id="post-2014-10-17-problems" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title">
+      <a href="/2014/10/17/problems/" class="flip-title">
+        Getting tired of dealing with problems?
+      </a>
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2014-10-17T00:00:00+02:00">17 Oct 2014</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+on <span>Systemic thinking</span>
+
+    </p>
+
+    
+
+
+
+  
+    <p class="message" >
+      If you think you can get rid of all your problems, take a look at what Ichak Adizes had to say about that…
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>What is the one thing in life you can be guaranteed of?</p>
+
+<p><strong>Change</strong>.</p>
+
+<p>If you aren’t changing it means you are dead, so be happy about that. But when things change, that does that cause?</p>
+
+<p><strong>Problems</strong>.</p>
+
+<p>As a smart person when you are faced with a problem you find…</p>
+
+<p><strong>Solutions</strong>!</p>
+
+<p>Aaand what do solutions cause…?</p>
+
+<p><strong>Oops.</strong></p>
+
+<p>As you can see, you will <em>always</em> have problems:</p>
+
+<p><img src="/assets/img/blog/problem-loop.jpg" alt="image" /></p>
+
+<p>The real question to ask is: Do you have the <em>right</em> problems?</p>
+
+<p>For a new startup, battling with cashflow is the <em>right</em> kind of problem to have. A company that has been around for 10 years and having cashflow issues is experiencing the <em>wrong</em> problem.</p>
+
+<p>Celebrate and embrace your right problems. Resist the urge sweep them under the rug or they will become wrong problems. When you find a genuine wrong problem, step back. Think about how the systems allowed that problem to happen and how the system could be changed to prevent it in future.</p>
+
+<p><em>Note: I first came across the change-problems-solutions loop via the work of <a href="http://www.ichakadizes.com/">Izak Adizes</a></em></p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/2014/10/17/problems/">Getting tired of dealing with problems?</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+
+<h2 class="sr-only">Pagination</h2>
+<nav class="pagination heading clearfix" role="navigation">
+  <ul>
+    <li class="pagination-item older" >
+      
+      
+      
+  <span class=" ">Older</span>
+
+
+    </li>
+    <li class="pagination-item newer" >
+      
+      
+      
+  <span class=" ">Newer</span>
+
+
+    </li>
+  </ul>
+</nav>
+
+
+
+
+    
+
+
+    <footer role="contentinfo">
+  <hr/>
+  
+  <p><small class="copyright">© 2017. All rights reserved.</small></p>
+  
+  <hr class="sr-only"/>
+</footer>
+
+  </main>
+  <hy-drawer>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+    <div class="sidebar-bg sidebar-overlay" style="background-color:#4fb1ba;background-image:url(/assets/img/sidebar-bg.jpg
+)"></div>
+
+    <div class="sidebar-sticky">
+      <div class="sidebar-about">
+        <h2 class="h1"><a href="/">Kevin Trethewey</a></h2>
+        
+        
+          <p class="fine">
+            I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss.
+
+          </p>
+        
+      </div>
+
+      <nav class="sidebar-nav heading" role="navigation">
+        <span class="sr-only">Navigation:</span>
+<ul>
+  
+  
+  
+  
+    
+      <li>
+        <a
+          id="_navigation"
+          href="/blog/"
+          class="sidebar-nav-item active"
+          
+          >
+          Blog
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a
+          
+          href="/nuggets/"
+          class="sidebar-nav-item"
+          
+          >
+          Nuggets
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a
+          
+          href="/projects/"
+          class="sidebar-nav-item"
+          
+          >
+          Projects
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a
+          
+          href="/resume/"
+          class="sidebar-nav-item"
+          
+          >
+          Resume
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a
+          
+          href="/about/"
+          class="sidebar-nav-item"
+          
+          >
+          About
+        </a>
+      </li>
+    
+  
+</ul>
+
+      </nav>
+
+      
+
+      <div class="sidebar-social">
+        <span class="sr-only">Social:</span>
+<ul>
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://twitter.com/kevintrethewey" title="Twitter" class="no-mark-external">
+    <span class="icon-twitter"></span>
+    <span class="sr-only">Twitter</span>
+  </a>
+</li>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:<kevint@gmail.com>" title="Email" class="no-mark-external">
+    <span class="icon-mail"></span>
+    <span class="sr-only">Email</span>
+  </a>
+</li>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://www.linkedin.com/in/kevint" title="LinkedIn" class="no-mark-external">
+    <span class="icon-linkedin2"></span>
+    <span class="sr-only">LinkedIn</span>
+  </a>
+</li>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://instagram.com/kevin_trethewey" title="Instagram" class="no-mark-external">
+    <span class="icon-instagram"></span>
+    <span class="sr-only">Instagram</span>
+  </a>
+</li>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://github.com/kevint" title="GitHub" class="no-mark-external">
+    <span class="icon-github"></span>
+    <span class="sr-only">GitHub</span>
+  </a>
+</li>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://kevintrethewey.com/feed.xml" title="RSS" class="no-mark-external">
+    <span class="icon-rss2"></span>
+    <span class="sr-only">RSS</span>
+  </a>
+</li>
+
+  
+</ul>
+
+      </div>
+    </div>
+  </header>
+</hy-drawer>
+
+</hy-push-state>
+
+
+  
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-146968-7', 'auto');
+    ga('send', 'pageview');
+    loadJSDeferred('https://www.google-analytics.com/analytics.js');
+  </script>
+  
+
+  <!--[if gt IE 9]><!---->
+  
+  <script>loadJSDeferred('/assets/js/hydejack.js?v=7.1.1');</script>
+
+  
+
+  <!--<![endif]-->
+
+
+
+  
+<hr class="sr-only"/>
+<h2 class="sr-only">Templates (for web app):</h2>
+
+<template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+<template id="_loading-template">
+  <div class="loading">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+<template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+<template id="_back-template">
+  <a id="_back" class="back nav-btn no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </a>
+</template>
+
+</body>
 </html>
